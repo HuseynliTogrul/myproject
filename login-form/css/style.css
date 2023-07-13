@@ -1,0 +1,194 @@
+* {
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+
+.container {
+    margin: 100px auto;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.13);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    font-family: 'Poppins', sans-serif;
+    padding: 30px 40px;
+    border-radius: 6px;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.input01,.input02 {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+}
+
+.container label {
+    margin-bottom: -5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    margin-bottom: 15px;
+    padding: 15px 30px;
+    border: 1px solid #bbb;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 300;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.input02 i:last-child{
+    position: relative;
+    top: -45px;
+    left: 265px;
+    color: gray;
+    cursor: pointer;
+}
+.input01 i,.input02 i{
+    position: relative;
+    top: 30px;
+    left: 10px;
+    color: gray;
+    width: 0;
+    cursor: pointer;
+}
+.remember {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.rememberClick {
+    font-size: 13px;
+    color: #555;
+}
+
+input[type="checkbox"] {
+    cursor: pointer;
+}
+
+.rememberClick label {
+    cursor: pointer;
+}
+
+.linkClick {
+    color: #e65100;
+    font-size: 13px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.login-button {
+    width: 100%;
+    background-color: #26a69a;
+    color: #fff;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.login-button:hover {
+    opacity: 1;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.social a {
+    display: inline-block;
+    border-radius: 3px;
+    padding: 10px 35px 10px 35px;
+    color: white;
+    cursor: pointer;
+    background: lightblue;
+    text-decoration: none;
+}
+
+.social a:first-child {
+    background-color: #4285F4;
+}
+
+.social a:last-child {
+    background-color: #3b5998;
+}
+
+.signup-link {
+    display: inline-block;
+    font-size: 13px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.signup-link a {
+    color: #e65100;
+}
+
+.forgot-link a {
+    color: #e65100;
+}
+
+.circles {
+    position: absolute;
+    z-index: -1;
+}
+
+.first-circle {
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    background: linear-gradient(#5c6bc0, #7986cb);
+    position: absolute;
+    top: -96px;
+    left: -107px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+.second-circle {
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    background: linear-gradient(to right, #ec5f64, #ee6e73);
+    position: absolute;
+    top: 410px;
+    left: 269px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

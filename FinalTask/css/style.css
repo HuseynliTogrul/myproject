@@ -1,0 +1,590 @@
+  body {
+      font-family: "Ubuntu", sans-serif;
+  }
+  
+  #home {
+      padding: 40px 15px;
+  }
+  
+  .container-basliq ul li {
+      margin: 0 15px;
+      font-size: 15px;
+      font-weight: 600;
+      letter-spacing: 2px;
+  }
+  
+  .container-basliq ul li a {
+      text-decoration: none;
+      color: black;
+  }
+  
+  .container-basliq ul li a:hover {
+      color: #4cd6ee;
+      transition: all .3s linear;
+  }
+  
+  .image img {
+      width: 100%;
+  }
+  
+  .first,
+  .second {
+      position: absolute;
+      bottom: 250px;
+      font-size: 18px;
+      color: #151515;
+      background-color: #fff;
+      padding: 10px 15px;
+  }
+  
+  .image i:hover {
+      background-color: #4cd6ee;
+      color: white;
+      transition: all .3s linear;
+  }
+  
+  .first {
+      left: 97%;
+  }
+  
+  .second {
+      right: 97%;
+  }
+  
+  .letter {
+      position: absolute;
+      left: 150px;
+      bottom: 30%;
+  }
+  
+  .letter h1 {
+      font-size: 25px;
+      border-left: 4px solid #57afe2;
+      padding: 0 15px;
+  }
+  
+  .letter h5 {
+      margin: 30px 0;
+      font-size: 40px;
+  }
+  
+  .letter button {
+      padding: 25px 30px;
+      color: white;
+      background-color: #86d05d;
+      border: none;
+  }
+  
+  .letter button:hover {
+      background-color: #4cd6ee;
+      transition: all .3s linear;
+  }
+  
+  .dental-time {
+      margin: 100px 10px;
+  }
+  
+  .emergency {
+      border: 1px solid rgb(245 242 242);
+      padding: 0 20px;
+      font-size: 18px;
+      height: 280px;
+  }
+  
+  .emergency h1 {
+      margin-top: 30px;
+  }
+  
+  .number {
+      justify-content: flex-start;
+      margin: 30px 0;
+      padding: 20px 0;
+      border-bottom: 1px solid rgb(245 242 242);
+  }
+  
+  .number p:hover {
+      color: #4cd6ee;
+      transition: all .3s linear;
+  }
+  
+  .number i {
+      margin-right: 20px;
+  }
+  
+  .number p:hover {
+      color: #4cd6ee;
+      transition: all .3s linear;
+  }
+  
+  .clinic {
+      margin-bottom: 70px;
+      font-size: 15px;
+  }
+  
+  .Appointment {
+      border: 1px solid rgb(245 242 242);
+      height: 280px;
+  }
+  
+  .Appointment h1 {
+      margin: 40px 15px 20px 15px;
+      font-size: 18px;
+  }
+  
+  .phone {
+      position: relative;
+  }
+  
+  .phone input,
+  .mail input {
+      border: 1px solid rgb(245 242 242);
+      padding: 20px;
+      margin: 10px;
+  }
+  
+  .phone i {
+      position: absolute;
+      left: 195px;
+      bottom: 30px;
+  }
+  
+  .mail button {
+      background-color: #ebebeb;
+      padding: 20px;
+      border: 1px solid rgb(245 242 242);
+      margin: 10px;
+      width: 210px;
+  }
+  
+  .mail button:hover {
+      background: #4cd6ee;
+      transition: all .3s linear
+  }
+  
+  .Hours {
+      border: 1px solid rgb(245 242 242);
+      width: 400px;
+      height: 280px;
+  }
+  
+  .Hours h1 {
+      margin: 40px 15px 20px 15px;
+      font-size: 18px;
+  }
+  
+  .Hours ul li {
+      margin: 25px 10px;
+      border-bottom: 1px solid rgb(245 242 242);
+      padding: 10px 0;
+  }
+  
+  .Hours ul li:nth-child(3) {
+      border-bottom: none;
+  }
+  
+  .container-about {
+      background: #f5f5f5;
+  }
+  
+  .about-item1,
+  .about-item2,
+  .about-item3,
+  .about-item4 {
+      width: 50%;
+      margin: 30px;
+      padding: 60px 0;
+      background-color: white;
+  }
+  
+  .about-first i,
+  .about-second i {
+      font-size: 30px;
+  }
+  
+  .about-first h5,
+  .about-second h5 {
+      font-weight: 500;
+      font-size: 20px;
+      margin: 15px 0;
+  }
+  
+  .about-first p,
+  .about-second p {
+      font-size: 15px;
+  }
+  
+  .about-clinic {
+      background-color: white;
+      margin: 40px;
+      padding: 20px;
+  }
+  
+  .about-clinic h1 {
+      font-size: 30px;
+      margin-bottom: 20px;
+  }
+  
+  .about-clinic span {
+      line-height: 25px;
+  }
+  
+  .about-foto {
+      margin-top: 30px;
+  }
+  
+  .about-foto img {
+      margin-right: 30px;
+  }
+  
+  .foto-span {
+      margin-top: 20px;
+  }
+  
+  .foto-span h2 {
+      font-weight: 550;
+      font-size: 20px;
+  }
+  
+  .foto-span h3 {
+      font-size: 15px;
+      letter-spacing: 2px;
+      margin: 10px 0 20px 0;
+      border-bottom: 1px solid gray;
+      padding: 0 0 20px 0;
+  }
+  
+  .foto-span h5 {
+      line-height: 25px;
+  }
+  
+  .service {
+      margin: 30px 20px;
+      border-bottom: 1px solid rgb(177, 177, 177);
+  }
+  
+  .service h1 {
+      font-weight: 500;
+      font-size: 30px;
+      margin: 20px;
+  }
+  
+  .service-icon i {
+      border: 1px solid rgb(216, 216, 216);
+      padding: 15px 18px;
+  }
+  
+  .service-icon i:hover {
+      background: #4cd6ee;
+      transition: all .3s linear;
+  }
+  
+  .service-icon button {
+      border: none;
+      padding: 20px 40px;
+  }
+  
+  .service-icon button:hover {
+      color: white;
+      background: #4cd6ee;
+      transition: all .3s linear;
+  }
+  
+  .services-item {
+      margin: 30px 0;
+  }
+  
+  .services-item ul {
+      overflow: hidden;
+  }
+  
+  .services-item ul li {
+      margin: 0 10px;
+  }
+  
+  .services-item ul li h1 {
+      font-weight: 500;
+      font-size: 20px;
+      margin: 10px 0;
+  }
+  
+  .services-item ul li h1:hover {
+      color: #4cd6ee;
+      transition: all .3s linear;
+  }
+  
+  .services-item ul li p {
+      font-size: 16px;
+  }
+  
+  #solving {
+      margin: 100px 0;
+      background-image: url("/images/bg.jpg");
+      height: 400px;
+  }
+  
+  .solving-foto {
+      height: 400px;
+  }
+  
+  .solving-foto h1 {
+      font-size: 20px;
+  }
+  
+  .solving-foto p {
+      margin: 20px 0;
+  }
+  
+  .solving-foto button {
+      border: none;
+      padding: 18px 40px;
+      background-color: #86d05d;
+      color: white;
+  }
+  
+  .solving-foto button:hover {
+      background: #4cd6ee;
+      transition: all .3s linear;
+  }
+  
+  #testimonials {
+      margin: 100px 0;
+  }
+  
+  .client {
+      font-size: 30px;
+      margin-bottom: 20px;
+  }
+  
+  .client-foto ul li {
+      margin: 0 20px;
+      border: 1px solid rgb(223, 221, 221);
+      padding: 30px 20px;
+  }
+  
+  .client-foto ul li span {
+      margin: 20px 0;
+  }
+  
+  .doctors {
+      margin: 30px 20px;
+      border-bottom: 1px solid rgb(177, 177, 177);
+  }
+  
+  .doctors h1 {
+      font-weight: 500;
+      font-size: 30px;
+      margin: 20px;
+  }
+  
+  .doctors-icon i {
+      border: 1px solid rgb(216, 216, 216);
+      padding: 15px 18px;
+  }
+  
+  .doctors-icon i:hover {
+      background: #4cd6ee;
+      transition: all .3s linear;
+  }
+  
+  .doctors-icon button {
+      border: none;
+      padding: 20px 40px;
+  }
+  
+  .doctors-icon button:hover {
+      color: white;
+      background: #4cd6ee;
+      transition: all .3s linear;
+  }
+  
+  .doctor-foto {
+      margin: 50px 0;
+  }
+  
+  .doctor-foto ul li {
+      overflow: hidden;
+      margin: 0 15px;
+  }
+  
+  .foto-yazi {
+      background: #4cd6ee;
+      color: white;
+      padding: 35px;
+  }
+  
+  .foto-yazi h1 {
+      margin-bottom: 10px;
+  }
+  
+  .foto-yazi h1:hover {
+      color: #56b3e9;
+      transition: all .3s linear;
+  }
+  
+  .phone-icon {
+      margin-top: 10px;
+  }
+  
+  .phone-icon p:hover {
+      color: #56b3e9;
+      transition: all .3s linear;
+  }
+  
+  .phone-icon p {
+      margin: 0 10px;
+  }
+  
+  #contacts {
+      display: flex;
+      background: #f5f5f5;
+  }
+  
+  .contact-touch {
+      padding: 0 40px;
+      margin: 30px 0;
+  }
+  
+  .touch-basliq h1 {
+      font-size: 25px;
+  }
+  
+  .touch-basliq p {
+      letter-spacing: 2px;
+      margin: 20px 15px;
+  }
+  
+  .touch-left {
+      width: 50%;
+      position: relative;
+  }
+  
+  .touch-left i {
+      position: absolute;
+      right: 30px;
+      top: 25px;
+      color: rgb(179, 178, 178);
+  }
+  
+  .touch-right {
+      width: 50%;
+  }
+  
+  .touch-left input,
+  .touch-right input {
+      border: none;
+      margin: 10px;
+      padding: 15px 20px;
+  }
+  
+  .touch-left-right input {
+      color: rgb(179, 178, 178);
+  }
+  
+  .touch-left input:last-child {
+      width: 182%;
+      height: 150px;
+  }
+  
+  .touch-button {
+      margin: 10px;
+  }
+  
+  .touch-button input {
+      border: none;
+      padding: 20px 20px;
+      width: 40%;
+      margin-right: 15px;
+      color: rgb(179, 178, 178);
+  }
+  
+  .touch-button button {
+      border: none;
+      padding: 20px 120px;
+      background-color: #86d05d;
+      color: white;
+  }
+  
+  .touch-button button:hover {
+      background-color: #4cd6ee;
+      transition: all .3s linear;
+  }
+  
+  #end {
+      background-color: #ececec;
+      padding: 50px 20px;
+      font-family: "Lato", Helvetica, Arial, sans-serif;
+  }
+  
+  #end h1 {
+      letter-spacing: 2px;
+  }
+  
+  .contact-us,
+  .clinic-adres,
+  .our-service {
+      border-bottom: 1px solid rgb(179, 178, 178);
+      width: 60%;
+      padding: 20px 0;
+      margin: 30px 0;
+  }
+  
+  .end-number {
+      margin: 10px 0;
+      font-size: 15px;
+  }
+  
+  .end-number i,
+  .end-mail i,
+  .end-location i {
+      margin-right: 10px;
+      color: #4cd6ee;
+  }
+  
+  .services-item {
+      justify-content: flex-start;
+  }
+  
+  .services-left {
+      margin-right: 30px;
+  }
+  
+  .services-item i {
+      margin-right: 5px;
+      color: #4cd6ee;
+  }
+  
+  .services1,
+  .services3 {
+      padding-bottom: 10px;
+  }
+  
+  .end-number:hover,
+  .end-mail:hover,
+  .end-location:hover,
+  .services1 span:hover,
+  .services2 span:hover,
+  .services3 span:hover,
+  .services4 span:hover {
+      color: #4cd6ee;
+      transition: all .3s linear;
+  }
+  
+  #end-2022 {
+      background-color: #e3e3e3;
+      display: flex;
+      justify-content: space-between;
+      padding: 40px 20px;
+  }
+  
+  #end-2022 span {
+      color: gray;
+  }
+  
+  .end-social i {
+      margin: 0 10px;
+  }
+  
+  .end-social i:hover {
+      color: #4cd6ee;
+      transition: all .3s linear;
+  }
